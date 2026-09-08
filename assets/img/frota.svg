@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#0ea5e9"/></linearGradient></defs>
+<rect width="800" height="500" rx="36" fill="url(#g)"/><rect x="70" y="75" width="660" height="350" rx="22" fill="#f8fafc"/>
+<rect x="105" y="115" width="200" height="24" rx="12" fill="#0f172a"/><rect x="105" y="165" width="275" height="100" rx="16" fill="#e2e8f0"/>
+<circle cx="145" cy="215" r="28" fill="#0ea5e9"/><rect x="195" y="195" width="135" height="16" rx="8" fill="#94a3b8"/><rect x="195" y="225" width="100" height="12" rx="6" fill="#cbd5e1"/>
+<rect x="410" y="165" width="285" height="220" rx="18" fill="#e0f2fe"/><path d="M445 340 L500 285 L545 315 L610 235 L660 270" fill="none" stroke="#0284c7" stroke-width="10"/><circle cx="445" cy="340" r="9" fill="#0284c7"/><circle cx="500" cy="285" r="9" fill="#0284c7"/><circle cx="545" cy="315" r="9" fill="#0284c7"/><circle cx="610" cy="235" r="9" fill="#0284c7"/>
+<text x="105" y="370" font-family="Arial" font-size="24" font-weight="700" fill="#0f172a">GESTÃO DE FROTA</text></svg>

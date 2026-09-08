@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#7c2d12"/><stop offset="1" stop-color="#f97316"/></linearGradient></defs>
+<rect width="800" height="500" rx="36" fill="url(#g)"/><rect x="80" y="65" width="640" height="370" rx="24" fill="#fff7ed"/>
+<path d="M135 350h530" stroke="#fed7aa" stroke-width="18"/><path d="M170 350V190h125v160M335 350V145h125v205M500 350V225h125v125" fill="#fdba74" stroke="#9a3412" stroke-width="6"/>
+<path d="M205 240h55M370 200h55M535 280h55" stroke="#fff7ed" stroke-width="10" stroke-linecap="round"/>
+<text x="140" y="115" font-family="Arial" font-size="28" font-weight="700" fill="#9a3412">ORÇAMENTO DE OBRAS</text></svg>

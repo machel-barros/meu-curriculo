@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <title>Contacto | Machel Barros Francisco</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Currículo e portfólio pessoal de Machel Barros Francisco, estudante de Licenciatura em Informática.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/estilo.css">
+<link rel="stylesheet" href="css/responsivo.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="Página inicial de Machel Barros Francisco">
+      <span class="brand-mark">MB</span>
+      <span>Machel Barros</span>
+    </a>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a class="nav-link" href="index.html">Início</a>
+      <a class="nav-link" href="about.html">Currículo</a>
+      <a class="nav-link" href="portfolio.html">Projetos</a>
+      <a class="nav-link" href="hobbies.html">Hobbies</a>
+      <a class="nav-link" href="contact.html">Contacto</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Fale comigo</p>
+      <h1>Contacto</h1>
+      <p>Preencha o formulário abaixo. A validação é feita nativamente pelo navegador, sem JavaScript.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-layout">
+      <article class="content-card">
+        <form action="#" method="post" enctype="multipart/form-data">
+          <fieldset>
+            <legend>Dados de contacto</legend>
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="nome">Nome completo *</label>
+                <input type="text" id="nome" name="nome" required minlength="3" maxlength="80" autocomplete="name">
+              </div>
+              <div class="form-field">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required autocomplete="email">
+              </div>
+              <div class="form-field">
+                <label for="telefone">Telefone *</label>
+                <input type="tel" id="telefone" name="telefone" required pattern="^\+?[0-9]{9,15}$" placeholder="+258841000765" autocomplete="tel">
+              </div>
+              <div class="form-field">
+                <label for="data">Data preferida de contacto</label>
+                <input type="date" id="data" name="data">
+              </div>
+              <div class="form-field">
+                <label for="idade">Idade *</label>
+                <input type="number" id="idade" name="idade" min="15" max="100" required>
+              </div>
+              <div class="form-field">
+                <label for="assunto">Assunto *</label>
+                <select id="assunto" name="assunto" required>
+                  <option value="">Selecione...</option>
+                  <option value="projeto">Projeto</option>
+                  <option value="colaboracao">Colaboração</option>
+                  <option value="networking">Networking</option>
+                  <option value="outro">Outro</option>
+                </select>
+              </div>
+              <div class="form-field full">
+                <label for="ficheiro">Anexar CV/portfólio</label>
+                <input type="file" id="ficheiro" name="ficheiro" accept=".pdf,.doc,.docx">
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Preferência de resposta</legend>
+            <div class="choice-row">
+              <label class="choice"><input type="radio" name="resposta" value="email" required><span>Email</span></label>
+              <label class="choice"><input type="radio" name="resposta" value="telefone"><span>Telefone</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Interesses</legend>
+            <div class="choice-row">
+              <label class="choice"><input type="checkbox" name="interesse" value="web"><span>Web</span></label>
+              <label class="choice"><input type="checkbox" name="interesse" value="negocios"><span>Negócios</span></label>
+              <label class="choice"><input type="checkbox" name="interesse" value="networking"><span>Networking</span></label>
+            </div>
+          </fieldset>
+
+          <div class="form-field">
+            <label for="mensagem">Mensagem *</label>
+            <textarea id="mensagem" name="mensagem" rows="7" required minlength="10" maxlength="800" placeholder="Escreva a sua mensagem..."></textarea>
+          </div>
+
+          <button class="button button-primary submit-button" type="submit">Enviar mensagem</button>
+        </form>
+      </article>
+
+      <aside class="contact-card">
+        <h2>Contactos diretos</h2>
+        <p>Se quiser falar comigo, pode utilizar os canais abaixo.</p>
+        <a class="contact-item" href="mailto:machelbarros1919@gmail.com"><strong>Email</strong><span>machelbarros1919@gmail.com</span></a>
+        <a class="contact-item" href="tel:+258841000765"><strong>Telefone</strong><span>+258 84 100 0765</span></a>
+      </aside>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <section>
+      <h2>Vamos conversar</h2>
+      <p>Interessado em tecnologia, negócios e novas oportunidades de aprendizagem.</p>
+    </section>
+    <section>
+      <h2>Contactos</h2>
+      <ul class="footer-list">
+        <li><a href="mailto:machelbarros1919@gmail.com">machelbarros1919@gmail.com</a></li>
+        <li><a href="tel:+258841000765">+258 84 100 0765</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Presença online</h2>
+      <ul class="footer-list">
+        <li><a href="#" aria-label="LinkedIn (substituir pelo perfil)">LinkedIn</a></li>
+        <li><a href="#" aria-label="GitHub (substituir pelo perfil)">GitHub</a></li>
+      </ul>
+    </section>
+  </div>
+  <div class="footer-bottom">
+    <p>Desenvolvido por Machel Barros Francisco · <span id="footer-year">2026</span></p>
+  </div>
+</footer>
+</body>
+</html>

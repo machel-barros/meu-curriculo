@@ -1,0 +1,36 @@
+/* RESPONSIVO.CSS — abordagem mobile-first */
+
+/* Tablet: até 768px */
+@media (min-width: 769px) {
+  .container { width: min(100% - 3rem, var(--container)); }
+  .hero { padding: 6rem 0; }
+  .hero-grid { grid-template-columns: 1.1fr .9fr; }
+  .two-column { grid-template-columns: 1.2fr .8fr; }
+  .cv-layout { grid-template-columns: minmax(0, 1.4fr) 340px; }
+  .contact-layout { grid-template-columns: minmax(0, 1.35fr) 340px; }
+  .media-section { grid-template-columns: 1fr 1fr; }
+  .form-grid { grid-template-columns: 1fr 1fr; }
+  .footer-grid { grid-template-columns: 1.3fr 1fr 1fr; }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .section { padding: 5.5rem 0; }
+  .header-inner { min-height: 78px; }
+}
+
+/* Telemóvel: até 480px */
+@media (max-width: 480px) {
+  .container { width: min(100% - 1.25rem, var(--container)); }
+  .header-inner { align-items: flex-start; padding: .75rem 0; flex-direction: column; }
+  .main-nav { width: 100%; justify-content: flex-start; overflow-x: auto; flex-wrap: nowrap; padding-bottom: .2rem; }
+  .nav-link { flex: 0 0 auto; font-size: .82rem; }
+  .hero { padding: 3.5rem 0; }
+  .profile-card { max-width: 320px; }
+  .button-row { flex-direction: column; }
+  .button { width: 100%; }
+  .quick-stats article { flex: 1 1 40%; }
+  .section, .page-hero { padding: 3rem 0; }
+  .content-card, .info-panel, .side-card, .contact-card { padding: 1rem; }
+  .skill-list li { align-items: flex-start; flex-direction: column; gap: .15rem; }
+}

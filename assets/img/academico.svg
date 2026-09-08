@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#312e81"/><stop offset="1" stop-color="#6366f1"/></linearGradient></defs>
+<rect width="800" height="500" rx="36" fill="url(#g)"/><path d="M115 210L400 95l285 115-285 115z" fill="#fff"/><path d="M185 245v85c110 70 320 70 430 0v-85" fill="#e0e7ff" stroke="#fff" stroke-width="8"/>
+<path d="M400 145v130M270 205l130 55 130-55" stroke="#6366f1" stroke-width="8"/><text x="175" y="420" font-family="Arial" font-size="28" font-weight="700" fill="#fff">PORTAL ACADÉMICO</text></svg>
